@@ -187,7 +187,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
           SizedBox(height: 20,),
           Center(child: Text("OR", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),)),
-          SizedBox(height: 20,),
+          SizedBox(height: 10,),
           Align(
             alignment: Alignment.center,
             child: RichText(

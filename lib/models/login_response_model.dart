@@ -1,3 +1,11 @@
+
+import 'dart:convert';
+
+import 'package:my_ecom_app/models/login_response_model.dart';
+
+LoginResponseModel loginResponseModel(String str)=>
+    LoginResponseModel.fromJson(json.decode(str));
+
 class LoginResponseModel {
   String? message;
   Data? data;
