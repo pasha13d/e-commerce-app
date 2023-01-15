@@ -1,8 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:snippet_coder_utils/FormHelper.dart';
-import 'package:snippet_coder_utils/ProgressHUD.dart';
-import 'package:snippet_coder_utils/hex_color.dart';
+import 'package:my_ecom_app/common_widgets/form_helper.dart';
+import 'package:my_ecom_app/common_widgets/hex_color.dart';
+import 'package:my_ecom_app/common_widgets/progress_hud.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
